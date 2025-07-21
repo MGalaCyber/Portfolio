@@ -22,7 +22,7 @@ export default async function Home() {
       {/* Profile Info */}
       <div className="space-y-3 text-center text-white">
         <div>
-          <h1 className="text-xl font-bold text-slate-12">John Doe</h1>
+          <h1 className="text-xl font-bold text-slate-12">GalaXD</h1>
           <p className="text-slate-10 text-sm">Software Developer</p>
         </div>
 
