@@ -9,7 +9,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "GXD Portfolio",
   description: "Enjoy working on various projects and exploring new technologies. 5+ years experience. Passionate about React, Node.js, Express.js, Discord.js, baileys, and modern web technologies.",
 };
 
