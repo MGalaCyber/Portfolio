@@ -1,6 +1,7 @@
 import { Geist } from "next/font/google";
 import type { Metadata, Viewport } from "next";
 import { MeshGradientComponent } from "@/components/mesh-gradient";
+import Script from "next/script";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,6 +28,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* AdSense global script */}
+        <Script
+          id="adsense-script"
+          async
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8954392795677883"
+          crossOrigin="anonymous"
+        />
+      </head>
       <body
         className={`${geistSans.className} antialiased max-w-screen min-h-svh bg-slate-1 text-slate-12 opacity-0 duration-75 transition-opacity`}
       >
